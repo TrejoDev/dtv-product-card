@@ -10,7 +10,7 @@ export * from './ProductImage';
 export * from './ProductTitle';
 
 
-export const ProductCard: ProductCardHOCProps = Object.assign( ProductCardHOC, {  //*Asignando un objeto y expandiendo sus propiedades.
+export const ProductCard: ProductCardHOCProps = Object.assign( ProductCardHOC, {  
     Title: ProductTitle,
     Image: ProductImage,
     Buttons: ProductButtons,
